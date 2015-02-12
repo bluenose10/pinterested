@@ -1,11 +1,28 @@
-$navbar-default-bg: #A9F5F2;
-$jumbotron-bg: #A9F5F2; 
-$jumbotron-padding: 20px; 
-
+$navbar-height: 30px; 
+$navbar-default-bg: #00FFFF;
+$jumbotron-bg: #0000FF; 
+ 
+$text-color: white;
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 
 .center{ 
     text-align: center;
+}  
 
+.responsive-video {
+position: relative;
+padding-bottom: 35.25%;
+padding-top: 60px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 10px;
+left: 0;
+width: 100%;
+height: 80%;
 }
