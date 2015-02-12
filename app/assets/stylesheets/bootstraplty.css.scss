@@ -2,14 +2,22 @@ $navbar-height: 40px;
 $navbar-default-bg: #00FFFF;
 $jumbotron-bg: #0000FF; 
  
-$text-color: white;
+
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 
 .center{ 
     text-align: center;
 }  
-
+h1{ 
+  color: black;
+} 
+p { 
+  color: black;
+}
+h3{ 
+  color: white;
+} 
 .responsive-video {
 position: relative;
 padding-bottom: 49.00%;
