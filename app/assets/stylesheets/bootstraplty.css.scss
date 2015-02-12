@@ -1,4 +1,10 @@
- 
-
+$navbar-default-bg: #58D3F7;
+$jumbotron-bg: #58D3F7; 
+$jumbotron-padding: 20px;
 @import "bootstrap-sprockets";
-@import "bootstrap";
+@import "bootstrap"; 
+
+.center{ 
+    text-align: center;
+
+}
