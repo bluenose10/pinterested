@@ -1,17 +1,19 @@
  
-<div class="jumbotron center">
+<div class="jumbotron center"> 
        <h3>Welcome To My Everton FC Pinterested App</h3> 
 
          <% if user_signed_in? %> 
               <%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'btn btn-primary' %> 
               <%= link_to "Edit Profile", edit_user_registration_path,class: 'btn btn-success'  %>
        <% else %>
-          <%= link_to "Login", new_user_session_path, class: 'btn btn-default' %> 
+          <%= link_to "Login", new_user_session_path, class: 'btn btn-success' %> 
           <%= link_to "Join", new_user_registration_path, class: 'btn btn-primary' %>
         <% end %>
   <br>
   <div class="responsive-video "><iframe src="//player.vimeo.com/video/48076577" width="200" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div> <h3>Learn Ruby On Rails - With Robeen Dey</h3>
-     
+
+    
+</div>     
   
-</div> 
+
 
