@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source 'https://rubygems.org' 
+
+gem 'aws-s3', '~> 0.6.3'
 gem 'paperclip', '~> 4.2.0'
 gem 'rails', '4.1.0'
 gem 'sass-rails', '~> 4.0.3'

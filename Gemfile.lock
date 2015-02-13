@@ -31,6 +31,10 @@ GEM
     autoprefixer-rails (5.1.5)
       execjs
       json
+    aws-s3 (0.6.3)
+      builder
+      mime-types
+      xml-simple
     aws-sdk (1.20.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4, < 1.6.0)
@@ -148,11 +152,13 @@ GEM
     uuidtools (2.1.5)
     warden (1.2.3)
       rack (>= 1.0)
+    xml-simple (1.1.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-s3 (~> 0.6.3)
   aws-sdk (~> 1.20.0)
   bootstrap-sass (~> 3.3.3)
   coffee-rails (~> 4.0.0)
