@@ -19,8 +19,7 @@ gem 'sqlite3',   '1.3.9'
 # Gemfile
 gem 'aws-sdk', '< 2.0'
  
-# gemspec
-spec.add_dependency('aws-sdk', '< 2.0')
+
 end
   
 group :production do 
