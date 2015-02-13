@@ -1,7 +1,7 @@
  class PinsController < ApplicationController
   before_action :set_pin, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
-  before_action :correct_user, only: [:edit, :update, :destroy]   
+  before_action :correct_user, only: [:edit, :update, :destroy] 
    
    respond_to :html
 
@@ -47,7 +47,7 @@
     end
 
     def pin_params
-      params.require(:pin).permit(:description : :image)
+      params.require(:pin).permit(:description )
     end
 
 
@@ -55,5 +55,5 @@
       @pin = current_user.pins.find_by(id: params[:id])
       redirect_to pins_path, notice: "Not authorized to edit this pin" if @pin.nil?
   end
+ end 
 
-end
