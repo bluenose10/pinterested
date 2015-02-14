@@ -1,11 +1,17 @@
 $navbar-height: 40px; 
 $navbar-default-bg: black;
 $jumbotron-bg: #0000FF; 
-$navbar-border-radius: 20px;
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
+.container .jumbotron {
+    border-radius: 66px; 
+    } 
 
+h2{ 
+color: white;
+}
 .center{ 
     text-align: center;
 }  
@@ -24,7 +30,7 @@ h5 {
 }
 .responsive-video {
 position: relative;
-padding-bottom: 47.00%;
+padding-bottom: 45.00%;
 padding-top: 60px; overflow: hidden;
 }
 .navbar .nav > li > a {
