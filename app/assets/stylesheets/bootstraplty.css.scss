@@ -13,7 +13,7 @@ $pagination-active-border:#0000FF;
 @import "bootstrap-sprockets";
 @import "bootstrap"; 
 .container .jumbotron {
-  border-radius: 66px; 
+  border-radius: 100px; 
   } 
 
 h2{ 
@@ -37,7 +37,7 @@ h5 {
 }
 .responsive-video {
 position: relative;
-padding-bottom: 45.00%;
+padding-bottom:25.00%;
 padding-top: 60px; overflow: hidden; 
   
 }
@@ -45,11 +45,13 @@ padding-top: 60px; overflow: hidden;
 .responsive-video iframe,
 .responsive-video object,
 .responsive-video embed {
-position: absolute;
+ 
+position: absolute;   
+  
 top: 10px;
-left: 0;
-width:100%;
-height: 80%; 
+left: 10%;
+width:80%;
+height: 100%; 
 border-radius: 38px; 
 } 
 
